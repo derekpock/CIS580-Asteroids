@@ -1,0 +1,21 @@
+{
+  "name": "asteroids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "author": "Derek Pockrandt",
+  "keywords": [],
+  "license": "GPL v3",
+  "devDependencies": {
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  },
+  "dependencies": {}
+}
